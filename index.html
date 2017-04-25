@@ -34,12 +34,12 @@
 		<div class="btn" id="parentIframe">点我parentIframe</div>
 		<!--<div class="btn" id="test4">点我test4</div>
 		<div class="btn" id="test5">点我test5</div>
-		
+
 		<div class="btn" id="test6">点我test6</div>
 		<div class="btn" id="test7">点我test7</div>
 		<div class="btn" id="test8">点我test8</div>
 		<div class="btn" id="test9">点我test9</div>-->
-		
+
 		<!--你必须先引入jQuery1.8或以上版本-->
 		<script src="js/jquery-2.1.0.js"></script>
 		<script src="js/layer/layer.js"></script>
@@ -48,7 +48,7 @@
 			$("#btn").bind("click",function(){
 				layer.msg('点我的人最美！');
 			});
-			
+
 			//弹出一个页面层
 			$('#test2').on('click', function(){
 			  layer.open({
@@ -58,7 +58,7 @@
 			  content: '\<\div style="padding:20px;">自定义内容--添加自己需要的描述内容\<\/div>'
 			  });
 			});
-			
+
 			//弹出一个iframe层
 			$('#parentIframe').on('click', function(){
 			  layer.open({
@@ -79,12 +79,12 @@
 			  	layer.close(ii);
 			  }, 1000);
 			});
-			
+
 			//弹出一个tips层
 			$('#test5').on('click', function(){
 			  layer.tips('Hello tips!', '#test5');
 			});
-			
+
 			//======================================
 			//多窗口模式，层叠置顶
 			$('#test6').on('click', function(){
@@ -106,16 +106,16 @@
 				  ,btn2: function(){
 				    layer.closeAll();
 				  }
-				  
+
 				  ,zIndex: layer.zIndex //重点1
 				  ,success: function(layero){
 				    layer.setTop(layero); //重点2
 				  }
 				});
 			});
-			
-			
-			
+
+
+
 			//配置一个透明的询问框
 			$('#test7').on('click', function(){
 				layer.msg('大部分参数都是可以公用的<br>合理搭配，展示不一样的风格', {
@@ -123,8 +123,8 @@
 				  btn: ['明白了', '知道了', '哦']
 				});
 			});
-				
-			
+
+
 			//示范一个公告层
 			$('#test8').on('click', function(){
 				layer.open({
@@ -148,7 +148,7 @@
 				  }
 				});
 			});
-			 
+
 			//边缘弹出
 			$('#test9').on('click', function(){
 				layer.open({
