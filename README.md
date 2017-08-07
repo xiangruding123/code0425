@@ -1,4 +1,4 @@
-###layer和layui的区别：
+### layer和layui的区别：
 
 #### layui 是之前 layer laydate 等独立组件的 超集合
 #### layui 是一个完整的前端框架，和 Bootstrap 是同一类事务
