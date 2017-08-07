@@ -3,7 +3,7 @@
 #### layui 是之前 layer laydate 等独立组件的 超集合
 #### layui 是一个完整的前端框架，和 Bootstrap 是同一类事务
 
-####引入了 layui 之后 layer就不用单独引入了
+#### 引入了 layui 之后 layer就不用单独引入了
 
 layui 已经包含了layer
 
@@ -36,7 +36,8 @@ layui.use('layer', function(){
 --------------------
 ### 简单介绍：layer和layui
 
-## 如果你不想使用Layui，而只是想使用layer，你可以去layer独立组件官网下载组件包。你需要在你的页面引入jQuery1.8以上的任意版本，并引入layer.js。
+## [如果你不想使用Layui，而只是想使用layer，你可以去layer独立组件官网下载组件包。你需要在你的页面引入jQuery1.8以上的任意版本，并引入layer.js。](http://www.dosrun.com/layui/layui-layer.html)
+## [如果你使用的是Layui，那么你直接在官网下载layui框架即可，无需引入jQuery和layer.js，但需要引入layui.css和layui.js。](http://www.dosrun.com/layui/layui-layer.html)
 
 ### layer
 
@@ -56,7 +57,7 @@ layui.use('layer', function(){
 ##layui
 ### [Layui 简介](http://www.dosrun.com/layui/layui-intro.html)
 
-###github:[https://github.com/sentsin/layui/](https://github.com/sentsin/layui/)
+### github:[https://github.com/sentsin/layui/](https://github.com/sentsin/layui/)
 
 ### 经典模块化前端UI框架 
 
